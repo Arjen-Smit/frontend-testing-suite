@@ -1,0 +1,25 @@
+{
+  "name": "frontend-testing-suite",
+  "version": "1.0.0",
+  "description": "Testing suite for testing my other projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arjen-Smit/frontend-testing-suite.git"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "Arjen Smit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arjen-Smit/frontend-testing-suite/issues"
+  },
+  "homepage": "https://github.com/Arjen-Smit/frontend-testing-suite#readme",
+  "devDependencies": {
+    "connectholland-gulp-tasks": "^2.2.10",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}
