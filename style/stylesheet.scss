@@ -2,5 +2,44 @@
 @import 'generated/icon';
 
 body {
-    background-color: $red;
+    padding: 0;
+    margin: 0;
+    nav {
+        border-bottom: 1px solid #a8a8a8;
+        margin-bottom: 20px;
+        h1 {
+            text-align: center;
+        }
+        button {
+             width: 200px;
+        }
+        #on {
+            float: left;
+        }
+        #off {
+            float: right;
+        }
+    }
+
+    .container {
+      font-family: serif;
+      width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+      box-sizing: border-box;
+      border: 1px solid black;
+    }
+
+    .wf-loading & {
+      .container {
+          background-color: #a8a8a8;
+      }
+    }
+
+    .wf-active & {
+      .container {
+        font-family: 'Cinzel', serif;
+        background-color: #d3d3d3;
+      }
+    }
 }
